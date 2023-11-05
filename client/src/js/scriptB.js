@@ -8,14 +8,17 @@ server.onmessage = function(event){ // updating doors status as locked/unlocked
     const data = (event.data)
 
     if(data === "AutoBtn"){
-        temprature = 18;
-        document.getElementById('tempraturePh').innerText = "18°C";
-        fan_speed = 2;
-        document.getElementById('fanSpeedPh').innerText = "2";
+        if(acStatus === true){
+            temprature = 18;
+            document.getElementById('tempraturePh').innerText = "18°C";
+            fan_speed = 2;
+            document.getElementById('fanSpeedPh').innerText = "2";
+        }
     }
 
     if(data === "AcOff"){
         acStatus = false;
+        fan_speed = 0;
         document.getElementById('ACPh').innerText = "Off";
         document.getElementById('ACPh').style.color="red";
         document.getElementById('tempraturePh').innerText = "*";
