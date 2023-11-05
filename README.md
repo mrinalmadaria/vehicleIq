@@ -27,10 +27,10 @@ The "Simulate Vehicle" feature offers real-time statistics of the paired vehicle
 The "Remote Connection" feature allows users to input a specific vehicle ID for remote pairing, enabling the monitoring and control of the connected vehicle.
 3. Basic Feature Page:
 The "Basic Feature Page" encompasses a range of fundamental features, including:
-  Fuel Meter: Offers a real-time visualization of the vehicle's current fuel level.
-  Range: Provides an estimate of the available range based on the current fuel level.
-  Control Panel: Empowers users to manipulate the vehicle's engine, lights, and doors.
-  Climate Control Panel: Enables precise control over the vehicle's climate settings, including fan speed and temperature.
+  * Fuel Meter: Offers a real-time visualization of the vehicle's current fuel level.
+  * Range: Provides an estimate of the available range based on the current fuel level.
+  * Control Panel: Empowers users to manipulate the vehicle's engine, lights, and doors.
+  * Climate Control Panel: Enables precise control over the vehicle's climate settings, including fan speed and temperature.
 
 4. Advanced Feature Page:
 The "Advanced Feature Page" incorporates a sophisticated AI model that employs real-time camera footage for driver monitoring. Key components of this feature include:
